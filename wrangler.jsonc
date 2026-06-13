@@ -1,0 +1,8 @@
+{
+  // Cloudflare Workers 静的アセット配信(taro_ai 予想サイト)
+  "name": "taro-ai",
+  "compatibility_date": "2024-09-23",
+  "assets": {
+    "directory": "."
+  }
+}
