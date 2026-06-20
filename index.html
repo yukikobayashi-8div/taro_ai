@@ -46,7 +46,7 @@ h2{font-size:16px;margin:28px 0 10px}
 .bar{flex:1;height:8px;background:#e2e8f0;border-radius:999px;overflow:hidden;max-width:280px}
 .fill{height:100%}.barlabel{font-size:12px;color:var(--mut)}
 .money{font-size:14px;background:#fff;border:1px dashed var(--line);border-radius:10px;padding:8px 12px;margin:8px 0}
-details{font-size:13px;color:#334155;margin-top:6px}summary{cursor:pointer;color:var(--ac);font-weight:600}
+details{font-size:13px;color:#334155;margin-top:6px}summary{cursor:pointer;color:var(--ac);font-weight:600;list-style:none}summary::-webkit-details-marker{display:none}summary::marker{content:''}
 .hint{background:#f0fdfa;border-left:3px solid var(--ac);padding:8px 10px;border-radius:6px;margin-top:8px}
 table{width:100%;border-collapse:collapse;font-size:13px;background:#fff;border-radius:10px;overflow:hidden}
 th{background:#f1f5f9;text-align:left;padding:7px 9px;font-size:12px;color:var(--mut)}
@@ -54,7 +54,7 @@ td{padding:7px 9px;border-top:1px solid var(--line)}.r{text-align:right}.c{text-
 .raw{font-size:12px;color:var(--mut);margin:4px 0 8px}
 .res{background:#fff;border-radius:12px;padding:14px 16px;font-size:14px;box-shadow:0 1px 4px rgba(15,23,42,.08)}
 .racecard{padding:0}.racecard>.rcbody{padding:0 16px 16px}.racecard>summary{padding:14px 16px;list-style:none}.racecard>summary::-webkit-details-marker{display:none}.racecard>summary::before{content:'▸';color:#94a3b8;margin-right:6px}.racecard[open]>summary::before{content:'▾'}
-.sect{background:#fff;border-radius:12px;margin:10px 0;box-shadow:0 1px 4px rgba(15,23,42,.08)}.sect>summary{padding:12px 16px;font-weight:700;color:#0f172a}.sect>*:not(summary){padding:0 16px 14px}
+.sect{background:#fff;border-radius:12px;margin:10px 0;box-shadow:0 1px 4px rgba(15,23,42,.08)}.sect>summary{padding:12px 16px;font-weight:700;color:#0f172a}.sect>summary::before{content:'▸';color:#94a3b8;margin-right:8px}.sect[open]>summary::before{content:'▾'}.sect>*:not(summary){padding:0 16px 14px}
 .corners{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
 .corner{border-radius:14px;padding:14px 16px;color:#fff}
 .corner.honmei{background:linear-gradient(135deg,#0f766e,#0d9488)}
@@ -113,7 +113,7 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 }
 </style></head><body>
 <div class='hero'><h1>🏇 AI競馬予想太郎「太郎やん」</h1>
-<div class='meta'>2026-06-20 | 生成 2026-06-20 09:04 JST</div>
+<div class='meta'>2026-06-20 | 生成 2026-06-20 09:09 JST</div>
 <div class='vbadge'>📋 朝版</div>
 <div class='greet'>💬 本日は36レースを精査して、購入は5点・800円に絞ったでやんす。見送り33レース。期待値の立つところだけ獲りにいくでやんす。</div></div>
 <div class='cards'>
@@ -125,23 +125,23 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 <div class='wrap'>
 <div class='legend'><span>🎛 プロファイル: factor_led</span><span>📈 オッズ支持率(20%)</span><span>⏱️ タイム指数(22%)</span><span>💪⚖️🧬🌀🌤 補助ファクター=主軸(勝率係数)</span></div>
 
-<div class='corners'><div class='corner honmei'><div class='ctitle'>🏆 今日一番自信があるレース</div><div class='crace'>10:30 阪神2R ダ1200m</div><div class='cpick'>単勝 <b>12番 マリリンバローズ</b> <span class='dim'>@2.0</span></div><div class='cmeta'>AI勝率 <b>62%</b> / 自信度 <b>0.90</b> / EV 1.25</div><div class='cnote'>堅く獲るなら単勝に加え、<b>複勝・ワイド</b>で的中率を上げる手も。資金の主軸にしやすい一頭でやんす。</div></div><div class='corner ooana'><div class='ctitle'>🎰 もし大穴を狙うならこのレース</div><div class='crace'>11:30 阪神4R ダ1800m</div><div class='cpick'>3連単 <b>13→8→12 スパルタンエックス×ギレイ×キングズテイル</b> <span class='dim'>@264.5</span></div><div class='cmeta'>AI勝率 <b>3%</b> / EV 7.34 / 100円が当たれば<b>約26,450円</b></div><div class='cnote'>確率は低いが期待値は妙味あり。<b>夢の一発逆転</b>を少額で狙う遊び目でやんす(無理は禁物)。</div></div></div>
-<div class='corner yasunari'><div class='ctitle'>🔥 俺たちのヤスナリ</div><div class='crace'>11:20 函館4R ダ1700m <span class='dim'>(本日5鞍)</span></div><div class='cpick'>単勝 <b>12番 ガーディアンテイル</b> <span class='dim'>@5.5(2人気)</span></div><div class='cmeta'>AI勝率 <b>15%</b> / EV 0.80 / ◎ 購入対象(組み合わせ)</div><div class='cnote'>買うならこの一頭でやんす → <b>今日は妙味薄。無理なら見送りでやんす</b></div></div>
-<div class='top3'><h2 style='margin-top:0'>🎯 本日の狙いレース3選</h2><div class='pick'><span class='pickno'>1</span><div class='pickbody'><div><b>13:00 東京6R ダ1600m</b> <span class='evb hi'>EV 4.97</span></div><div>▶ 3連複 <b>1-2-5 タマモブレイキン×ロングミックス×トルネードアイル</b> <span class='dim'>@25.3 / 200円 / 自信度0.57</span></div><div class='pickwhy'>最高EV 4.97 / 自信度 0.57</div></div></div><div class='pick'><span class='pickno'>2</span><div class='pickbody'><div><b>13:20 阪神7R 芝2400m</b> <span class='evb hi'>EV 3.73</span></div><div>▶ 馬連 <b>2-5 シートゥサミット×サガルマータ</b> <span class='dim'>@21.5 / 100円 / 自信度0.65</span></div><div class='pickwhy'>EV 5.98 は基準クリアも自信度0.45が不足(ファクター不一致)</div></div></div><div class='pick'><span class='pickno'>3</span><div class='pickbody'><div><b>11:40 東京4R 芝1400m</b> <span class='evb hi'>EV 3.28</span></div><div>▶ 3連複 <b>2-9-10 ルークウォーム×ニクスルーナ×ゴールデンハニビー</b> <span class='dim'>@10.5 / 300円 / 自信度0.57</span></div><div class='pickwhy'>最高EV 3.28 / 自信度 0.57</div></div></div></div>
-<details class='sect'><summary>🏇 注目騎手の騎乗一覧</summary><div class='jockeycard'><div class='jname'>👤 横山武史 <span class='dim'>(9鞍)</span></div><div class='jsum'>📝 本日<b>9鞍</b> / 購入対象<b>0鞍</b>(妙味候補0鞍)。購入対象: なし。本日は妙味のある騎乗なし(各馬とも過剰人気orデータ薄)。</div><div class='tscroll'><table><tr><th>発走</th><th>レース</th><th>馬番</th><th>馬名</th><th>オッズ(人気)</th><th>AI勝率</th><th>EV</th><th>購入有無/おすすめ度</th></tr><tr><td>09:50</td><td>函館1R 芝1200m</td><td class='c'>9</td><td>クリオロゴールド</td><td class='r'>5.7 (3人気)</td><td class='r'>7%</td><td class='r'>0.38</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>10:20</td><td>函館2R ダ1700m</td><td class='c'>10</td><td>ストリートクイーン</td><td class='r'>10.6 (5人気)</td><td class='r'>8%</td><td class='r'>0.82</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>11:20</td><td>函館4R ダ1700m</td><td class='c'>2</td><td>ニシノモリミチ</td><td class='r'>4.6 (1人気)</td><td class='r'>9%</td><td class='r'>0.43</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>12:10</td><td>函館5R 芝1200m</td><td class='c'>6</td><td>ソニックアイル</td><td class='r'>3.6 (2人気)</td><td class='r'>22%</td><td class='r'>0.80</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>12:40</td><td>函館6R ダ1000m</td><td class='c'>1</td><td>クラウスーラ</td><td class='r'>3.1 (1人気)</td><td class='r'>35%</td><td class='r'>1.09</td><td style='color:#d97706;font-weight:700'>△ 中立(オッズ妥当)</td></tr><tr><td>13:10</td><td>函館7R 芝1800m</td><td class='c'>5</td><td>ジュラトリー</td><td class='r'>5.9 (2人気)</td><td class='r'>16%</td><td class='r'>0.93</td><td style='color:#d97706;font-weight:700'>△ 中立(オッズ妥当)</td></tr><tr><td>14:10</td><td>函館9R 下北半島特別</td><td class='c'>11</td><td>ロンドンオービタル</td><td class='r'>8.8 (5人気)</td><td class='r'>9%</td><td class='r'>0.76</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>15:20</td><td>函館11R ＳＴＶ杯</td><td class='c'>8</td><td>フードマン</td><td class='r'>4.5 (2人気)</td><td class='r'>20%</td><td class='r'>0.89</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>16:05</td><td>函館12R ダ1700m</td><td class='c'>5</td><td>リュウカルネ</td><td class='r'>3.9 (2人気)</td><td class='r'>10%</td><td class='r'>0.40</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr></table></div></div><div class='jockeycard'><div class='jname'>👤 岩田康誠 <span class='dim'>(5鞍)</span></div><div class='jsum'>📝 本日<b>5鞍</b> / 購入対象<b>1鞍</b>(妙味候補0鞍)。購入対象: 函館4R ダ1700m。狙いは <b>函館4R ダ1700m 12番ガーディアンテイル</b>(オッズ5.5・EV0.80・◎ 購入対象(組み合わせ))。</div><div class='tscroll'><table><tr><th>発走</th><th>レース</th><th>馬番</th><th>馬名</th><th>オッズ(人気)</th><th>AI勝率</th><th>EV</th><th>購入有無/おすすめ度</th></tr><tr><td>10:50</td><td>函館3R 芝2000m</td><td class='c'>10</td><td>ジャケットポケット</td><td class='r'>8.7 (5人気)</td><td class='r'>7%</td><td class='r'>0.58</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>11:20</td><td>函館4R ダ1700m</td><td class='c'>12</td><td>ガーディアンテイル</td><td class='r'>5.5 (2人気)</td><td class='r'>15%</td><td class='r'>0.80</td><td style='color:#0d9488;font-weight:700'>◎ 購入対象(組み合わせ)</td></tr><tr><td>13:10</td><td>函館7R 芝1800m</td><td class='c'>7</td><td>シンデレラカラー</td><td class='r'>18.7 (8人気)</td><td class='r'>3%</td><td class='r'>0.52</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>13:40</td><td>函館8R ダ1000m</td><td class='c'>1</td><td>フクシマコウヨウ</td><td class='r'>15.0 (8人気)</td><td class='r'>3%</td><td class='r'>0.49</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>15:20</td><td>函館11R ＳＴＶ杯</td><td class='c'>1</td><td>キープサインオン</td><td class='r'>18.2 (8人気)</td><td class='r'>1%</td><td class='r'>0.22</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr></table></div></div><div class='jockeycard'><div class='jname'>👤 川田将雅 <span class='dim'>(8鞍)</span></div><div class='jsum'>📝 本日<b>8鞍</b> / 購入対象<b>1鞍</b>(妙味候補2鞍)。購入対象: 阪神7R 芝2400m。狙いは <b>阪神7R 芝2400m 5番サガルマータ</b>(オッズ3.2・EV1.40・◎ 購入対象(組み合わせ))。</div><div class='tscroll'><table><tr><th>発走</th><th>レース</th><th>馬番</th><th>馬名</th><th>オッズ(人気)</th><th>AI勝率</th><th>EV</th><th>購入有無/おすすめ度</th></tr><tr><td>10:30</td><td>阪神2R ダ1200m</td><td class='c'>13</td><td>ココロザスノ</td><td class='r'>11.0 (5人気)</td><td class='r'>3%</td><td class='r'>0.28</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>12:20</td><td>阪神5R 芝1400m</td><td class='c'>7</td><td>ティンタアマレラ</td><td class='r'>3.7 (1人気)</td><td class='r'>19%</td><td class='r'>0.71</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>12:50</td><td>阪神6R 芝1800m</td><td class='c'>16</td><td>レッドパラジウム</td><td class='r'>6.8 (3人気)</td><td class='r'>26%</td><td class='r'>1.75</td><td style='color:#2563eb;font-weight:700'>○ 妙味あり(基準付近)</td></tr><tr><td>13:20</td><td>阪神7R 芝2400m</td><td class='c'>5</td><td>サガルマータ</td><td class='r'>3.2 (1人気)</td><td class='r'>44%</td><td class='r'>1.40</td><td style='color:#0d9488;font-weight:700'>◎ 購入対象(組み合わせ)</td></tr><tr><td>13:50</td><td>阪神8R ダ1800m</td><td class='c'>15</td><td>ココロヅヨサ</td><td class='r'>3.7 (1人気)</td><td class='r'>15%</td><td class='r'>0.56</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>14:20</td><td>阪神9R 舞子特別</td><td class='c'>10</td><td>ワンコールアウェイ</td><td class='r'>4.5 (3人気)</td><td class='r'>29%</td><td class='r'>1.32</td><td style='color:#2563eb;font-weight:700'>○ 妙味あり(基準付近)</td></tr><tr><td>15:30</td><td>阪神11R 天保山ステークス</td><td class='c'>14</td><td>ルークススペイ</td><td class='r'>4.3 (2人気)</td><td class='r'>9%</td><td class='r'>0.38</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>16:15</td><td>阪神12R 芝1600m</td><td class='c'>16</td><td>サーディンラン</td><td class='r'>4.8 (2人気)</td><td class='r'>9%</td><td class='r'>0.43</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr></table></div></div></details>
+<div class='corners'><div class='corner honmei'><div class='ctitle'>🏆 今日一番自信があるレース</div><div class='crace'>10:30 阪神2R ダ1200m</div><div class='cpick'>単勝 <b>12番 マリリンバローズ</b> <span class='dim'>@2.0</span></div><div class='cmeta'>AI勝率 <b>63%</b> / 自信度 <b>0.90</b> / EV 1.25</div><div class='cnote'>堅く獲るなら単勝に加え、<b>複勝・ワイド</b>で的中率を上げる手も。資金の主軸にしやすい一頭でやんす。</div></div><div class='corner ooana'><div class='ctitle'>🎰 もし大穴を狙うならこのレース</div><div class='crace'>11:30 阪神4R ダ1800m</div><div class='cpick'>3連単 <b>13→8→12 スパルタンエックス×ギレイ×キングズテイル</b> <span class='dim'>@264.5</span></div><div class='cmeta'>AI勝率 <b>3%</b> / EV 7.69 / 100円が当たれば<b>約26,450円</b></div><div class='cnote'>確率は低いが期待値は妙味あり。<b>夢の一発逆転</b>を少額で狙う遊び目でやんす(無理は禁物)。</div></div></div>
+<div class='corner yasunari'><div class='ctitle'>🔥 俺たちのヤスナリ</div><div class='crace'>11:20 函館4R ダ1700m <span class='dim'>(本日5鞍)</span></div><div class='cpick'>単勝 <b>12番 ガーディアンテイル</b> <span class='dim'>@5.5(2人気)</span></div><div class='cmeta'>AI勝率 <b>15%</b> / EV 0.81 / ◎ 購入対象(組み合わせ)</div><div class='cnote'>買うならこの一頭でやんす → <b>今日は妙味薄。無理なら見送りでやんす</b></div></div>
+<div class='top3'><h2 style='margin-top:0'>🎯 本日の狙いレース3選</h2><div class='pick'><span class='pickno'>1</span><div class='pickbody'><div><b>13:00 東京6R ダ1600m</b> <span class='evb hi'>EV 4.97</span></div><div>▶ 3連複 <b>1-2-5 タマモブレイキン×ロングミックス×トルネードアイル</b> <span class='dim'>@25.3 / 200円 / 自信度0.57</span></div><div class='pickwhy'>最高EV 4.97 / 自信度 0.57</div></div></div><div class='pick'><span class='pickno'>2</span><div class='pickbody'><div><b>13:20 阪神7R 芝2400m</b> <span class='evb hi'>EV 3.71</span></div><div>▶ 馬連 <b>2-5 シートゥサミット×サガルマータ</b> <span class='dim'>@21.5 / 100円 / 自信度0.65</span></div><div class='pickwhy'>EV 5.93 は基準クリアも自信度0.45が不足(ファクター不一致)</div></div></div><div class='pick'><span class='pickno'>3</span><div class='pickbody'><div><b>11:40 東京4R 芝1400m</b> <span class='evb hi'>EV 3.28</span></div><div>▶ 3連複 <b>2-9-10 ルークウォーム×ニクスルーナ×ゴールデンハニビー</b> <span class='dim'>@10.5 / 300円 / 自信度0.57</span></div><div class='pickwhy'>最高EV 3.28 / 自信度 0.57</div></div></div></div>
+<details class='sect'><summary>🏇 注目騎手の騎乗一覧</summary><div class='jockeycard'><div class='jname'>👤 横山武史 <span class='dim'>(9鞍)</span></div><div class='jsum'>📝 本日<b>9鞍</b> / 購入対象<b>0鞍</b>(妙味候補0鞍)。購入対象: なし。本日は妙味のある騎乗なし(各馬とも過剰人気orデータ薄)。</div><div class='tscroll'><table><tr><th>発走</th><th>レース</th><th>馬番</th><th>馬名</th><th>オッズ(人気)</th><th>AI勝率</th><th>EV</th><th>購入有無/おすすめ度</th></tr><tr><td>09:50</td><td>函館1R 芝1200m</td><td class='c'>9</td><td>クリオロゴールド</td><td class='r'>5.7 (3人気)</td><td class='r'>7%</td><td class='r'>0.38</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>10:20</td><td>函館2R ダ1700m</td><td class='c'>10</td><td>ストリートクイーン</td><td class='r'>10.6 (5人気)</td><td class='r'>8%</td><td class='r'>0.82</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>11:20</td><td>函館4R ダ1700m</td><td class='c'>2</td><td>ニシノモリミチ</td><td class='r'>4.6 (1人気)</td><td class='r'>10%</td><td class='r'>0.44</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>12:10</td><td>函館5R 芝1200m</td><td class='c'>6</td><td>ソニックアイル</td><td class='r'>3.6 (2人気)</td><td class='r'>22%</td><td class='r'>0.80</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>12:40</td><td>函館6R ダ1000m</td><td class='c'>1</td><td>クラウスーラ</td><td class='r'>3.1 (1人気)</td><td class='r'>35%</td><td class='r'>1.09</td><td style='color:#d97706;font-weight:700'>△ 中立(オッズ妥当)</td></tr><tr><td>13:10</td><td>函館7R 芝1800m</td><td class='c'>5</td><td>ジュラトリー</td><td class='r'>5.9 (2人気)</td><td class='r'>16%</td><td class='r'>0.92</td><td style='color:#d97706;font-weight:700'>△ 中立(オッズ妥当)</td></tr><tr><td>14:10</td><td>函館9R 下北半島特別</td><td class='c'>11</td><td>ロンドンオービタル</td><td class='r'>8.8 (5人気)</td><td class='r'>8%</td><td class='r'>0.74</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>15:20</td><td>函館11R ＳＴＶ杯</td><td class='c'>8</td><td>フードマン</td><td class='r'>4.5 (2人気)</td><td class='r'>20%</td><td class='r'>0.88</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>16:05</td><td>函館12R ダ1700m</td><td class='c'>5</td><td>リュウカルネ</td><td class='r'>3.9 (2人気)</td><td class='r'>10%</td><td class='r'>0.39</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr></table></div></div><div class='jockeycard'><div class='jname'>👤 岩田康誠 <span class='dim'>(5鞍)</span></div><div class='jsum'>📝 本日<b>5鞍</b> / 購入対象<b>1鞍</b>(妙味候補0鞍)。購入対象: 函館4R ダ1700m。狙いは <b>函館4R ダ1700m 12番ガーディアンテイル</b>(オッズ5.5・EV0.81・◎ 購入対象(組み合わせ))。</div><div class='tscroll'><table><tr><th>発走</th><th>レース</th><th>馬番</th><th>馬名</th><th>オッズ(人気)</th><th>AI勝率</th><th>EV</th><th>購入有無/おすすめ度</th></tr><tr><td>10:50</td><td>函館3R 芝2000m</td><td class='c'>10</td><td>ジャケットポケット</td><td class='r'>8.7 (5人気)</td><td class='r'>7%</td><td class='r'>0.59</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>11:20</td><td>函館4R ダ1700m</td><td class='c'>12</td><td>ガーディアンテイル</td><td class='r'>5.5 (2人気)</td><td class='r'>15%</td><td class='r'>0.81</td><td style='color:#0d9488;font-weight:700'>◎ 購入対象(組み合わせ)</td></tr><tr><td>13:10</td><td>函館7R 芝1800m</td><td class='c'>7</td><td>シンデレラカラー</td><td class='r'>18.7 (8人気)</td><td class='r'>3%</td><td class='r'>0.52</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>13:40</td><td>函館8R ダ1000m</td><td class='c'>1</td><td>フクシマコウヨウ</td><td class='r'>15.0 (8人気)</td><td class='r'>3%</td><td class='r'>0.47</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>15:20</td><td>函館11R ＳＴＶ杯</td><td class='c'>1</td><td>キープサインオン</td><td class='r'>18.2 (8人気)</td><td class='r'>1%</td><td class='r'>0.22</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr></table></div></div><div class='jockeycard'><div class='jname'>👤 川田将雅 <span class='dim'>(8鞍)</span></div><div class='jsum'>📝 本日<b>8鞍</b> / 購入対象<b>1鞍</b>(妙味候補2鞍)。購入対象: 阪神7R 芝2400m。狙いは <b>阪神7R 芝2400m 5番サガルマータ</b>(オッズ3.2・EV1.40・◎ 購入対象(組み合わせ))。</div><div class='tscroll'><table><tr><th>発走</th><th>レース</th><th>馬番</th><th>馬名</th><th>オッズ(人気)</th><th>AI勝率</th><th>EV</th><th>購入有無/おすすめ度</th></tr><tr><td>10:30</td><td>阪神2R ダ1200m</td><td class='c'>13</td><td>ココロザスノ</td><td class='r'>11.0 (5人気)</td><td class='r'>3%</td><td class='r'>0.28</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>12:20</td><td>阪神5R 芝1400m</td><td class='c'>7</td><td>ティンタアマレラ</td><td class='r'>3.7 (1人気)</td><td class='r'>19%</td><td class='r'>0.71</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>12:50</td><td>阪神6R 芝1800m</td><td class='c'>16</td><td>レッドパラジウム</td><td class='r'>6.8 (3人気)</td><td class='r'>26%</td><td class='r'>1.78</td><td style='color:#2563eb;font-weight:700'>○ 妙味あり(基準付近)</td></tr><tr><td>13:20</td><td>阪神7R 芝2400m</td><td class='c'>5</td><td>サガルマータ</td><td class='r'>3.2 (1人気)</td><td class='r'>44%</td><td class='r'>1.40</td><td style='color:#0d9488;font-weight:700'>◎ 購入対象(組み合わせ)</td></tr><tr><td>13:50</td><td>阪神8R ダ1800m</td><td class='c'>15</td><td>ココロヅヨサ</td><td class='r'>3.7 (1人気)</td><td class='r'>15%</td><td class='r'>0.55</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>14:20</td><td>阪神9R 舞子特別</td><td class='c'>10</td><td>ワンコールアウェイ</td><td class='r'>4.5 (3人気)</td><td class='r'>30%</td><td class='r'>1.34</td><td style='color:#2563eb;font-weight:700'>○ 妙味あり(基準付近)</td></tr><tr><td>15:30</td><td>阪神11R 天保山ステークス</td><td class='c'>14</td><td>ルークススペイ</td><td class='r'>4.3 (2人気)</td><td class='r'>9%</td><td class='r'>0.38</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr><tr><td>16:15</td><td>阪神12R 芝1600m</td><td class='c'>16</td><td>サーディンラン</td><td class='r'>4.8 (2人気)</td><td class='r'>9%</td><td class='r'>0.44</td><td style='color:#6b7280;font-weight:700'>✕ 妙味なし(過剰人気/能力不足)</td></tr></table></div></div></details>
 <h2>📋 レース別詳細 <span class='dim' style='font-size:12px'>(タップで展開・購入レースは開いた状態)</span></h2>
 <details class='racecard rc-skip'>
 <summary class='racehead'><div><span class='time'>09:50</span> <b>函館1R 芝1200m</b> <span class='chip'>🌤 曇</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 5.04 は基準クリアも自信度0.17が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 4.99 は基準クリアも自信度0.17が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span><span class='chip dim'>🌀 脚質×バイアス未取得</span></div>
 </div></details><details class='racecard rc-skip'>
 <summary class='racehead'><div><span class='time'>09:55</span> <b>阪神1R 障3110m</b> <span class='chip'>🌤 雨</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 4.47 は基準クリアも自信度0.05が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 4.27 は基準クリアも自信度0.05が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>🌀 脚質×バイアス</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span><span class='chip dim'> 展開適合(ペース×脚質)未取得</span></div>
 </div></details><details class='racecard rc-buy' open>
@@ -161,14 +161,14 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 <summary class='racehead'><div><span class='time'>10:20</span> <b>函館2R ダ1700m</b> <span class='chip'>🌤 曇</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 2.25 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 2.23 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span><span class='chip dim'>🌀 脚質×バイアス未取得</span></div>
 </div></details><details class='racecard rc-skip'>
 <summary class='racehead'><div><span class='time'>10:30</span> <b>阪神2R ダ1200m</b> <span class='chip'>🌤 雨</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 2.71 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 2.72 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌀 脚質×バイアス</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span></div>
 </div></details><details class='racecard rc-skip'>
@@ -182,14 +182,14 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 <summary class='racehead'><div><span class='time'>10:50</span> <b>函館3R 芝2000m</b> <span class='chip'>🌤 曇</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 2.77 は基準クリアも自信度0.22が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 2.67 は基準クリアも自信度0.22が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span><span class='chip dim'>🌀 脚質×バイアス未取得</span></div>
 </div></details><details class='racecard rc-skip'>
 <summary class='racehead'><div><span class='time'>11:00</span> <b>阪神3R ダ1800m</b> <span class='chip'>🌤 雨</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 3.04 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 3.00 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌀 脚質×バイアス</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span></div>
 </div></details><details class='racecard rc-skip'>
@@ -203,20 +203,20 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 <summary class='racehead'><div><span class='time'>11:20</span> <b>函館4R ダ1700m</b> <span class='chip'>🌤 曇</span></div><span class='verdict buy'>🟢 購入 1点 100円</span></summary>
 <div class='rcbody'>
 
-<div class='why'>✅ <b>購入する理由:</b> EV 5.18 は基準クリアも自信度0.17が不足(ファクター不一致)。下記の買い目が券種別EV基準と自信度基準を同時にクリア</div>
+<div class='why'>✅ <b>購入する理由:</b> EV 5.04 は基準クリアも自信度0.17が不足(ファクター不一致)。下記の買い目が券種別EV基準と自信度基準を同時にクリア</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span><span class='chip dim'>🌀 脚質×バイアス未取得</span></div>
 <div class='betblock'>
-<div class='bethead'><div><span class='rankb' style='background:#0d9488'>A</span><span class='stars'>★★★☆☆</span> <span class='bettype'>ワイド</span> <b>3-12 ミリオンアップ×ガーディアンテイル</b> <span class='dim'>@17.5</span></div><span class='evb hi'>EV 2.50</span></div>
-<div class='chips'><span class='chip'>🎲 Harville的中率 14.3%</span></div>
+<div class='bethead'><div><span class='rankb' style='background:#0d9488'>A</span><span class='stars'>★★★☆☆</span> <span class='bettype'>ワイド</span> <b>3-12 ミリオンアップ×ガーディアンテイル</b> <span class='dim'>@17.5</span></div><span class='evb hi'>EV 2.48</span></div>
+<div class='chips'><span class='chip'>🎲 Harville的中率 14.2%</span></div>
 <div class='row'><span>自信度</span><div class='bar'><div class='fill' style='width:65%;background:#f59e0b'></div></div><span class='barlabel'>0.65</span></div>
-<div class='money'>💴 購入 <b>100円</b> → 想定払戻 <b>1,750円</b> <span class='dim'>(期待回収 249円)</span></div>
-<details><summary>根拠の詳細</summary><ul><li>ワイド 3-12: Harville推定的中率14.3%×オッズ17.5=EV 2.50</li><li>構成馬(ミリオンアップ・ガーディアンテイル)の自信度平均0.65</li><li>券種別基準: EV≧1.25・Kelly係数×0.8</li></ul><div class='hint'>💡 オッズが実力を過小評価している妙味でやんす。直前オッズで再確認するでやんす。</div></details>
+<div class='money'>💴 購入 <b>100円</b> → 想定払戻 <b>1,750円</b> <span class='dim'>(期待回収 248円)</span></div>
+<details><summary>根拠の詳細</summary><ul><li>ワイド 3-12: Harville推定的中率14.2%×オッズ17.5=EV 2.48</li><li>構成馬(ミリオンアップ・ガーディアンテイル)の自信度平均0.65</li><li>券種別基準: EV≧1.25・Kelly係数×0.8</li></ul><div class='hint'>💡 オッズが実力を過小評価している妙味でやんす。直前オッズで再確認するでやんす。</div></details>
 </div></div></details><details class='racecard rc-skip'>
 <summary class='racehead'><div><span class='time'>11:30</span> <b>阪神4R ダ1800m</b> <span class='chip'>🌤 雨</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 7.34 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 7.69 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌀 脚質×バイアス</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span></div>
 </div></details><details class='racecard rc-buy' open>
@@ -264,7 +264,7 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 <summary class='racehead'><div><span class='time'>12:50</span> <b>阪神6R 芝1800m</b> <span class='chip'>🌤 雨</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> 最高EV 3.33 / 自信度 0.50(購入レース数上限により未選定)</div>
+<div class='why'>❌ <b>購入しない理由:</b> 最高EV 3.34 / 自信度 0.50(購入レース数上限により未選定)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌀 脚質×バイアス</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span></div>
 </div></details><details class='racecard rc-buy' open>
@@ -284,22 +284,22 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 <summary class='racehead'><div><span class='time'>13:10</span> <b>函館7R 芝1800m</b> <span class='chip'>🌤 曇</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 3.48 は基準クリアも自信度0.22が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 3.44 は基準クリアも自信度0.22が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span><span class='chip dim'>🌀 脚質×バイアス未取得</span></div>
 </div></details><details class='racecard rc-buy' open>
 <summary class='racehead'><div><span class='time'>13:20</span> <b>阪神7R 芝2400m</b> <span class='chip'>🌤 雨</span></div><span class='verdict buy'>🟢 購入 1点 100円</span></summary>
 <div class='rcbody'>
 
-<div class='why'>✅ <b>購入する理由:</b> EV 5.98 は基準クリアも自信度0.45が不足(ファクター不一致)。下記の買い目が券種別EV基準と自信度基準を同時にクリア</div>
+<div class='why'>✅ <b>購入する理由:</b> EV 5.93 は基準クリアも自信度0.45が不足(ファクター不一致)。下記の買い目が券種別EV基準と自信度基準を同時にクリア</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌀 脚質×バイアス</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span></div>
 <div class='betblock'>
-<div class='bethead'><div><span class='rankb' style='background:#0d9488'>A</span><span class='stars'>★★★☆☆</span> <span class='bettype'>馬連</span> <b>2-5 シートゥサミット×サガルマータ</b> <span class='dim'>@21.5</span></div><span class='evb hi'>EV 3.73</span></div>
-<div class='chips'><span class='chip'>🎲 Harville的中率 17.4%</span></div>
+<div class='bethead'><div><span class='rankb' style='background:#0d9488'>A</span><span class='stars'>★★★☆☆</span> <span class='bettype'>馬連</span> <b>2-5 シートゥサミット×サガルマータ</b> <span class='dim'>@21.5</span></div><span class='evb hi'>EV 3.71</span></div>
+<div class='chips'><span class='chip'>🎲 Harville的中率 17.2%</span></div>
 <div class='row'><span>自信度</span><div class='bar'><div class='fill' style='width:65%;background:#f59e0b'></div></div><span class='barlabel'>0.65</span></div>
-<div class='money'>💴 購入 <b>100円</b> → 想定払戻 <b>2,150円</b> <span class='dim'>(期待回収 373円)</span></div>
-<details><summary>根拠の詳細</summary><ul><li>馬連 2-5: Harville推定的中率17.4%×オッズ21.5=EV 3.73</li><li>構成馬(シートゥサミット・サガルマータ)の自信度平均0.65</li><li>券種別基準: EV≧1.3・Kelly係数×0.6</li></ul><div class='hint'>💡 オッズが実力を過小評価している妙味でやんす。直前オッズで再確認するでやんす。</div></details>
+<div class='money'>💴 購入 <b>100円</b> → 想定払戻 <b>2,150円</b> <span class='dim'>(期待回収 370円)</span></div>
+<details><summary>根拠の詳細</summary><ul><li>馬連 2-5: Harville推定的中率17.2%×オッズ21.5=EV 3.71</li><li>構成馬(シートゥサミット・サガルマータ)の自信度平均0.65</li><li>券種別基準: EV≧1.3・Kelly係数×0.6</li></ul><div class='hint'>💡 オッズが実力を過小評価している妙味でやんす。直前オッズで再確認するでやんす。</div></details>
 </div></div></details><details class='racecard rc-skip'>
 <summary class='racehead'><div><span class='time'>13:30</span> <b>東京7R ダ1400m</b> <span class='chip'>🌤 晴</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
@@ -311,7 +311,7 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 <summary class='racehead'><div><span class='time'>13:40</span> <b>函館8R ダ1000m</b> <span class='chip'>🌤 曇</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 2.80 は基準クリアも自信度0.33が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 2.76 は基準クリアも自信度0.33が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span><span class='chip dim'>🌀 脚質×バイアス未取得</span></div>
 </div></details><details class='racecard rc-skip'>
@@ -339,7 +339,7 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 <summary class='racehead'><div><span class='time'>14:20</span> <b>阪神9R 舞子特別</b> <span class='chip'>🌤 雨</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 2.53 は基準クリアも自信度0.38が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 2.58 は基準クリアも自信度0.38が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌀 脚質×バイアス</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span></div>
 </div></details><details class='racecard rc-skip'>
@@ -353,14 +353,14 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 <summary class='racehead'><div><span class='time'>14:45</span> <b>函館10R 駒ケ岳特別</b> <span class='chip'>🌤 曇</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 2.91 は基準クリアも自信度0.30が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 2.85 は基準クリアも自信度0.30が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span><span class='chip dim'>🌀 脚質×バイアス未取得</span></div>
 </div></details><details class='racecard rc-skip'>
 <summary class='racehead'><div><span class='time'>14:55</span> <b>阪神10R ストークステークス</b> <span class='chip'>🌤 雨</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 2.48 は基準クリアも自信度0.05が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 2.42 は基準クリアも自信度0.05が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌀 脚質×バイアス</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span></div>
 </div></details><details class='racecard rc-skip'>
@@ -374,14 +374,14 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 <summary class='racehead'><div><span class='time'>15:20</span> <b>函館11R ＳＴＶ杯</b> <span class='chip'>🌤 曇</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 3.53 は基準クリアも自信度0.33が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 3.52 は基準クリアも自信度0.33が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span><span class='chip dim'>🌀 脚質×バイアス未取得</span></div>
 </div></details><details class='racecard rc-skip'>
 <summary class='racehead'><div><span class='time'>15:30</span> <b>阪神11R 天保山ステークス</b> <span class='chip'>🌤 雨</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 3.86 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 3.83 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌀 脚質×バイアス</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span></div>
 </div></details><details class='racecard rc-skip'>
@@ -395,14 +395,14 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 <summary class='racehead'><div><span class='time'>16:05</span> <b>函館12R ダ1700m</b> <span class='chip'>🌤 曇</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 2.37 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 2.36 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span><span class='chip dim'>🌀 脚質×バイアス未取得</span></div>
 </div></details><details class='racecard rc-skip'>
 <summary class='racehead'><div><span class='time'>16:15</span> <b>阪神12R 芝1600m</b> <span class='chip'>🌤 雨</span></div><span class='verdict skip'>⚪ 見送り</span></summary>
 <div class='rcbody'>
 
-<div class='why'>❌ <b>購入しない理由:</b> EV 2.64 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
+<div class='why'>❌ <b>購入しない理由:</b> EV 2.53 は基準クリアも自信度0.45が不足(ファクター不一致)</div>
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌀 脚質×バイアス</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span></div>
 </div></details><details class='racecard rc-skip'>
@@ -413,7 +413,7 @@ table.gl th{width:140px;vertical-align:top;background:#f8fafc;color:#0f172a}
 
 <div class='chips'><span class='chip ok'>💪 調教</span><span class='chip ok'>🧬 血統</span><span class='chip ok'>🏟 コース適性</span><span class='chip ok'>📈 近走内容</span><span class='chip ok'>✅ 展開適合(ペース×脚質)</span><span class='chip ok'>🌀 脚質×バイアス</span><span class='chip ok'>🌤 天候・風</span><span class='chip dim'>⚖️ 馬体重未取得</span></div>
 </div></details>
-<details class='sect'><summary>👀 参考: 基準未達の上位候補(購入非推奨)</summary><div class='tscroll'><table class='plain'><tr><th>発走</th><th>レース</th><th>券種</th><th>買い目</th><th>オッズ</th><th>EV</th><th>自信度</th></tr><tr><td>11:30</td><td>阪神4R ダ1800m</td><td>3連単</td><td>13→8→12 スパルタンエックス×ギレイ×キングズテイル</td><td class='r'>264.5</td><td class='r'>7.34</td><td class='r'>0.45</td></tr><tr><td>11:30</td><td>阪神4R ダ1800m</td><td>3連単</td><td>13→12→8 スパルタンエックス×キングズテイル×ギレイ</td><td class='r'>230.1</td><td class='r'>6.65</td><td class='r'>0.45</td></tr><tr><td>13:20</td><td>阪神7R 芝2400m</td><td>3連複</td><td>2-5-14 シートゥサミット×サガルマータ×シルバーリム</td><td class='r'>136.3</td><td class='r'>5.99</td><td class='r'>0.45</td></tr><tr><td>11:30</td><td>阪神4R ダ1800m</td><td>3連複</td><td>8-12-13 ギレイ×キングズテイル×スパルタンエックス</td><td class='r'>55.0</td><td class='r'>5.83</td><td class='r'>0.45</td></tr><tr><td>11:30</td><td>阪神4R ダ1800m</td><td>馬連</td><td>8-13 ギレイ×スパルタンエックス</td><td class='r'>35.7</td><td class='r'>5.41</td><td class='r'>0.47</td></tr></table></div></details>
+<details class='sect'><summary>👀 参考: 基準未達の上位候補(購入非推奨)</summary><div class='tscroll'><table class='plain'><tr><th>発走</th><th>レース</th><th>券種</th><th>買い目</th><th>オッズ</th><th>EV</th><th>自信度</th></tr><tr><td>11:30</td><td>阪神4R ダ1800m</td><td>3連単</td><td>13→8→12 スパルタンエックス×ギレイ×キングズテイル</td><td class='r'>264.5</td><td class='r'>7.69</td><td class='r'>0.45</td></tr><tr><td>11:30</td><td>阪神4R ダ1800m</td><td>3連単</td><td>13→12→8 スパルタンエックス×キングズテイル×ギレイ</td><td class='r'>230.1</td><td class='r'>6.96</td><td class='r'>0.45</td></tr><tr><td>11:30</td><td>阪神4R ダ1800m</td><td>3連複</td><td>8-12-13 ギレイ×キングズテイル×スパルタンエックス</td><td class='r'>55.0</td><td class='r'>6.07</td><td class='r'>0.45</td></tr><tr><td>13:20</td><td>阪神7R 芝2400m</td><td>3連複</td><td>2-5-14 シートゥサミット×サガルマータ×シルバーリム</td><td class='r'>136.3</td><td class='r'>5.93</td><td class='r'>0.45</td></tr><tr><td>11:30</td><td>阪神4R ダ1800m</td><td>馬連</td><td>8-13 ギレイ×スパルタンエックス</td><td class='r'>35.7</td><td class='r'>5.55</td><td class='r'>0.47</td></tr></table></div></details>
 <h2>💰 回収状況</h2>
 <div class='res'>本日の確定結果はまだないでやんす。</div>
 <details class='sect'><summary>🧭 予想ファクター網羅性セルフチェック</summary><div class='covsum'>全 36 レース × 18 項目の充足率 <b>87%</b>。欠落＝『無い』ではなく『まだ取りに行っていない』。取り得る手段(netkeiba・JRA・気象庁・SNS・談話・パドック)で埋めてから評価するでやんす。</div><div class='covwarn'>⚠ 全レース欠落 2項目: 当日馬体重・気性</div><div class='tscroll'><table class='plain covtbl'><tr><th>ファクター</th><th>取得状況</th><th>欠落時の取得先</th></tr><tr class='covcat'><td colspan='3'>A.馬場・環境</td></tr><tr><td class='covname'>馬場状態</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr><tr><td class='covname'>天気</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr><tr><td class='covname'>風</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr><tr><td class='covname'>高速馬場か</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr><tr class='covcat'><td colspan='3'>B.バイアス</td></tr><tr><td class='covname'>馬場バイアス</td><td class='covst'><span class='cov part'>一部</span> <span class='dim'>24/36</span></td><td><div class='covacq'>要取得(自律取得を試行): 当日の内外バイアス(実測)。前Rのレース映像・通過順から推定</div></td></tr><tr><td class='covname'>脚質バイアス</td><td class='covst'><span class='cov part'>一部</span> <span class='dim'>35/36</span></td><td><div class='covacq'>要取得(自律取得を試行): 前残り/差し決着の傾向。当該コース過去傾向＋当日の出来事</div></td></tr><tr><td class='covname'>位置バイアス</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr><tr><td class='covname'>血統バイアス</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr><tr class='covcat'><td colspan='3'>C.ペース・展開</td></tr><tr><td class='covname'>ペース判断</td><td class='covst'><span class='cov part'>一部</span> <span class='dim'>35/36</span></td><td><div class='covacq'>要取得(自律取得を試行): 逃げ・先行馬の頭数と意図から想定。出馬表＋脚質</div></td></tr><tr><td class='covname'>高速ペースか</td><td class='covst'><span class='cov part'>一部</span> <span class='dim'>35/36</span></td><td><div class='covacq'>要取得(自律取得を試行): 締まり具合(想定ラップ)。同条件レースのラップ傾向</div></td></tr><tr class='covcat'><td colspan='3'>D.能力・時計</td></tr><tr><td class='covname'>持ち時計とレースレベル</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr><tr class='covcat'><td colspan='3'>E.コンディション</td></tr><tr><td class='covname'>調教パターン</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr><tr><td class='covname'>調子判断(休み明け等)</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr><tr><td class='covname'>当日馬体重</td><td class='covst'><span class='cov miss'>欠落</span> <span class='dim'>0/36</span></td><td><div class='covacq'>要取得(自律取得を試行): 当日馬体重と増減の質(絞れ/成長/太め)。発表＋パドック</div></td></tr><tr><td class='covname'>気性</td><td class='covst'><span class='cov miss'>欠落</span> <span class='dim'>0/36</span></td><td><div class='covacq'>要取得(自律取得を試行): 折り合い/ゲート/テンション/集中。過去レース映像・パドック・SNS評</div></td></tr><tr class='covcat'><td colspan='3'>F.人的・条件</td></tr><tr><td class='covname'>騎手のレース傾向</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr><tr><td class='covname'>斤量</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr><tr class='covcat'><td colspan='3'>G.外部情報</td></tr><tr><td class='covname'>外厩(放牧先)</td><td class='covst'><span class='cov ok'>取得</span> <span class='dim'>36/36</span></td><td></td></tr></table></div><p class='covnote'>※ 欠落項目は『無い』ではなく『まだ取りに行っていない』とみなす。netkeiba・JRA公式・気象庁・SNS(X/競馬専門アカウント)・調教師/騎手談話・パドック映像など、取り得る手段で値を埋めてから評価に進むこと。代理指標(プロキシ)でも可。それでも不能な場合のみ、理由を添えて保留とする。</p></details>
