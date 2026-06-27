@@ -1,8 +1,14 @@
 {
-  // Cloudflare Workers 静的アセット配信(taro_ai 予想サイト)
+  // Cloudflare Workers 静的アセット配信(taro_ai 予想サイト)＋簡易アクセス認証(⑯)
+  // _worker.js が全リクエストを先に受け、SITE_TOKEN設定時のみトークン認証を要求する。
+  // SITE_TOKEN 未設定ならフェイルオープン(従来どおり全公開)。
+  // トークン設定: `wrangler secret put SITE_TOKEN`（または Cloudflare ダッシュボード Variables）。
   "name": "taro-ai",
   "compatibility_date": "2024-09-23",
+  "main": "_worker.js",
   "assets": {
-    "directory": "."
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": true
   }
 }
